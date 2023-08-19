@@ -7,6 +7,6 @@ Setup:
 
 Overview:
 
-N-tier architecture was selected. That allowed to reuse application layer services OrderManagement.API and  Order.Management.Consumer; Alternatively CQS\CQRS coudl be used.
+N-tier architecture was selected. That allowed to reuse application layer services OrderManagement.API and  Order.Management.Consumer; Alternatively CQS\CQRS could be used.
 Mapping from Domain model to response models \ DTO`s was ommited in order to make tesing easier;
 Used NServiceBus as an abstraction over Azure Service Bus. Used Outbox pattern for eventual consistency;
